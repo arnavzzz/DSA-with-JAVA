@@ -1,0 +1,17 @@
+import java.util.ArrayList;
+
+public class ArrayList1 {
+    public static void main(String[] args) {
+        ArrayList<Integer> list = new ArrayList <> (10);
+
+        list.add(1);
+        list.add(2);
+        list.add(23);
+        list.add(1);
+        list.set(0,3);
+        list.remove(2);
+
+        System.out.println(list.contains(1));
+        System.out.println(list);
+    }
+}
